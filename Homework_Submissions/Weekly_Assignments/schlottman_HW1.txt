@@ -3,4 +3,8 @@ Date: 08/24/2023
 Assignment #1
 
 My forecast estimates for this submssion were 77.875 cfs and 78.066 cfs for one and two weeks out respectively. To determine these estimates I simply chose a random year from the dataset and took the average of the daily discharge values for the week.
+
+
+### Grade: 
+3/3 Great job!  I got your submission. 
  
