@@ -1,0 +1,5 @@
+Name: Jason Schlottman
+Date: 09/01/2023
+Assignment #2
+
+My forecast estimates for this submssion were 179.571 cfs and 69.857 cfs for one and two weeks out respectively. To determine these estimates I used the previous year's data for the weeks of 08/27/2022 to 9/02/2022 and 09/03/2022 to 09/09/2022 from the dataset and took the average of the daily discharge values for the week. 
