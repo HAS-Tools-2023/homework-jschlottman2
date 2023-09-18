@@ -2,6 +2,14 @@
 ## Date: 09/14/2023
 ## Assignent: HW_4 Numpy 
 
+##
+## Grade
+3/3 nice work
+- Note that your images did not come through because they are not included in this folder. Remind me and we can talk in class about how to do this. 
+- Glad to hear your confidence is building!
+##
+
+
 # Summary
 "In order to generate my forecast values this week I used conditional statements with the numpy array  flow_data from the provided starter code. This produced 1-week and 2-week forecast estimstes of 225.171 cfs and 186.765 cfs for each period."
 
