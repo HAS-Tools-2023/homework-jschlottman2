@@ -41,10 +41,10 @@ del(data)
 # %%
 # Starter Code
 # Count the number of values with flow > 600 and month ==7
-flow_count = np.sum((flow_data[:,3] > 80) & (flow_data[:,1]==9))
+flow_count = np.sum((flow_data[:,3] > 80) & (flow_data[:,1]==9) & (flow_data[:,0]>=2010))
 
 
-criteria = (flow_data[:, 3] > 100) & (flow_data[:, 1] == 9)
+criteria = (flow_data[:, 3] > 100) & (flow_data[:, 1] == 9) & (flow_data[:,0]>=2010)
 pick_data = flow_data[criteria, 3]
 flow_mean = np.mean(pick_data)
 
