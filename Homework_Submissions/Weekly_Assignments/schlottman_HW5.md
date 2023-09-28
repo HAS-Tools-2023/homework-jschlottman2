@@ -2,6 +2,17 @@ Name: Jason Schlottman
 Date: 09/19/2023
 Assignment: HW Week 5 Numpy Part 2
 
+### Grade
+2/3 - Good job. 
+- I'm taking off 1/2 point for not having markdown formatting and 1/2 point because you didn't have a for loop attempt for question 5. 
+- For the markdown you can go back to the notes from class last tuesday when we went over this or feel free to come to my office hours if you have question. 
+- Note for the dimensions I'm asking for how many rows and how many columns are in the array. 
+- It doesn't look like your monthly average flow worked. Its output all zeros for this and looking at your script you don't have a for loop to do the averaging. Feel free to come to my office hours if you have qeustions.  
+- The reason your dates are in the wrong order is because you need to use np.repeat for the years not np.tile. 
+- Please make sure to look at the solution for this week as that should hopefully clear some things up. Its a lot to learn at once. We'll ge there!
+###
+  
+
 This week's assignment focused on using conditionals and the numpy array flow_data provided in the starter code from the previous week. My 1-week and 2-week forecast values were 157.286 cfs and 309 cfs respectively. These values were attained by taking averages of the same date but on previous years to reflect a likely or probable estimate for the values of this year.
 
 The average flow for the 5-year period was 591.1092688937568 cfs.
