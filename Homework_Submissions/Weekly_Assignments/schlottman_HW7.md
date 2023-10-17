@@ -2,6 +2,14 @@
 ## Name: Jason Schlottman
 ## Date: 10/10/2023
 
+### Grade
+2.5/3 Nice work!
+- I took off 1/2 point because you were missing the multi panel plot and your x axes were very hard to read or messed up in some cases. 
+- Note that none of your graphs were showing up in your markdown file because your markdown file is in a different folder from your graphs. I copied your graphs into this folder to get it to display. The other option is that you can include a path to the file in your reference to the graph (e.g. `../../Homework_Working/Assignment_7/image-3.png`)
+- It doesn't matter for this as we were just testing plotting but note that your first scatter plot is actually exactly the same as your line plot its just representing it with points instead of a line. 
+- Don't give up you are definitely making progress! All of this is super confusing and counterintuitive at first and the only way to get good at it is just to keep practicing. We have already come a very long way in just a few short weeks. 
+###
+
 ### Forecast Summary:
 For this week's forecast I determined 1-week and 2-week forecast esimates of 74.8 cfs and  75.8 cfs. These flow values were determined by analyzing streamgauge data run within a pandas dataframe, resulting in obervations of flow code along with a corresponding datetime. 
 I located and selected recent flow values over a 1-week and 2-week out period leading up to the forecast dates, which serve as estimates as these are likely similar and useful as representative flow values that will be observed over the forecast periods.
