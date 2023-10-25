@@ -2,6 +2,12 @@
 ## Author Name: Jason Schlottman
 ## Date: 10/23/2023
 
+### Grade
+2.5/3: Nice job. I subtracted 0.5 because one of your graphs didn't make it in and because you weren't actually using the timeseries functionality. 
+- Note that one of your graphs did not come through because there is no image.png in this file. 
+- Your understanding of the assignment is correct and I do see that you read in the data using timeseries option. However that was called 'data2' and throughout your code you used 'data' instead and thats why your x-axes are still looking all scrunched up. 
+###
+
 ### Forecast Summary:
 For this week's forecast I determined 1-week and 2-week forecast esimates of 103 cfs and 214 cfs. These values were determined by analyzing flow data from a dataframe as well as the use of for loops, lists, and conditional statements to select dates and value ranges of desired observations within the same month of October in previous years to serve as reasonable comparisons to estimate 1-week and 2-week flow values.
 
