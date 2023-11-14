@@ -13,6 +13,8 @@ import datetime
 
 # %%
 # Set the file name and path to where you have stored the data
+
+# LC looks like this path doesn't work - I can't read in the data
 filename = 'streamflow_week9.txt'
 filepath = os.path.join('../data', filename)
 print(os.getcwd())
@@ -27,6 +29,7 @@ data = pd.read_table(filename, sep='\t', skiprows=30,
 
 # %%
 # DataFrame, making the dates into a datetime object
+# LC -- Note clear why you are reading in the same data twice. You should either have this block or the one above it. 
 data2 = pd.read_table(filename, sep='\t', skiprows=30,
                       names =['agency_cd', 'site_no',
                               'datetime', 'flow', 'code'],
@@ -35,6 +38,7 @@ data2 = pd.read_table(filename, sep='\t', skiprows=30,
 
 # %%
 #Expand dates to day,month,year
+# LC - You should use the datetime functionality instead of splitting the dates up like this. In Data2 you have them parsed as dates so you could just use that. 
 data[["year", "month", "day"]] =data["datetime"].str.split("-", expand=True)
 data['year'] = data['year'].astype(int)
 data['month'] = data['month'].astype(int)
@@ -42,6 +46,7 @@ data['day'] = data['day'].astype(int)
 
 # %%
 #make lists of the data
+# LC -- This is technically okay but would be much cleaner just to stick with the dataframe than to convert everything to lists. Its not clear to me what the value added of that would be. 
 flow = data.flow.values.tolist()
 date = data.datetime.values.tolist()
 year = data.year.values.tolist()
@@ -66,7 +71,9 @@ plt.ylabel('Flow')
 plt.title('Observed Flow Over Time')
 
 # %%
-#Identify flow values in October of previous years less than 90 cfs to relate to average historical observed values.
+# Identify flow values in October of previous years less than 90 cfs to relate to average historical observed values.
+
+# LC - nice use of for loops!
 flowlist=[]
 for i in range(len(flow)):
     if flow[i]<90 and month[i] ==10:
